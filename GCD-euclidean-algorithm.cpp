@@ -9,12 +9,8 @@
  using namespace std;
 
  int GCD(int a, int b){
- 	int q,r,tmp;
- 	if(b>a){
- 		tmp = a;
- 		a=b;
- 		b=tmp;
- 	}
+ 	int r;
+ 	
  	while(a%b){
  		r=a%b;
  		a=b;
