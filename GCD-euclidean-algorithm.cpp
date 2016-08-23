@@ -5,7 +5,7 @@
  #include <cstdio>
  #include <cstring>
  #include <cstdlib>
- #include <utilitiy>
+ #include <utility>
  using namespace std;
 
  int GCD(int a, int b){
