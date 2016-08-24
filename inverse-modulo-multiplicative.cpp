@@ -43,7 +43,9 @@
  int inverse_modulo_multipicative(int a, int m){
  	int x,y;
  	ext_GCD(a, m, x, y);
- 	if(x<0)x+=m;
+ 	if(x<0){
+ 		x = (x%m)+m;
+ 	}
  	return x;
  }
 
