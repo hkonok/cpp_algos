@@ -1,5 +1,5 @@
 /*
- * Longest increasing subsequence 
+ * Longest increasing subsequence
  */
  #include <iostream>
  #include <cstdio>
@@ -22,7 +22,7 @@
 
  int lis_bs(int val){
  	int s=1,e=L,mid;
- 	while(s>e){
+ 	while(s<e){
  		mid = (s+e)/2;
  		if(arr[p[mid]]<val){
  			s = mid + 1;
@@ -60,7 +60,7 @@
  		cin>>arr[i];
  	}
  	cout<<lis()<<endl;
- 	
+
  	return 0;
  }
 
