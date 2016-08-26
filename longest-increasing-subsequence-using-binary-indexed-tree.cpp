@@ -1,7 +1,7 @@
 /*
  * Longest increasing subsequence using binary indexed tree
  */
-#include <iostream>
+ #include <iostream>
  #include <cstdio>
  #include <cstring>
  #include <cstdlib>
